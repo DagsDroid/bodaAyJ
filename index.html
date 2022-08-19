@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Boda J&A</title>
+	<title>INICIO - BODA A&E</title>
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<img src="video1.gif" width="400px">
+	<div class="cancion">
+		<audio loop id="audio">
+		  	<source src="media/cancion.mpeg" type="audio/mp3">
+		</audio>
+	</div>
+	<video src="media/video.mp4" id="video" muted loop></video>
+
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
